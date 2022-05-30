@@ -1,4 +1,4 @@
-RAILS_VERSIONS = ['>= 4.2.0', '< 6.2'].freeze
+RAILS_VERSIONS = ['>= 6.0.0', '< 8.0.0'].freeze
 
 $:.push File.expand_path("../lib", __FILE__)
 
@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
-  s.required_ruby_version = '>= 2.4.1'
+  s.required_ruby_version = '>= 3.0.0'
 
   s.add_dependency "activesupport", RAILS_VERSIONS
   s.add_dependency "activemodel", RAILS_VERSIONS
