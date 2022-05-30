@@ -1,5 +1,5 @@
 if ActiveRecord.gem_version >= Gem::Version.new('5.0')
-  class AddBlockerIdToFriendships < ActiveRecord::Migration[4.2]; end
+  class AddBlockerIdToFriendships < ActiveRecord::Migration[7.0]; end
 else
   class AddBlockerIdToFriendships < ActiveRecord::Migration; end
 end

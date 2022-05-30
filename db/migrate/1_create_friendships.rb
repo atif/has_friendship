@@ -1,5 +1,5 @@
 if ActiveRecord.gem_version >= Gem::Version.new('5.0')
-  class CreateFriendships < ActiveRecord::Migration[4.2]; end
+  class CreateFriendships < ActiveRecord::Migration[7.0]; end
 else
   class CreateFriendships < ActiveRecord::Migration; end
 end
